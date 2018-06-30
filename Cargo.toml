@@ -1,0 +1,11 @@
+[package]
+name = "mbus_write"
+version = "0.1.0"
+authors = ["Andrew Reid <gnomad@cryptolab.net>"]
+
+[dependencies]
+clap = "2.26.0"
+futures = "0.1"
+tokio-core = "*"
+tokio-modbus = "*"
+tokio-serial = "*"
